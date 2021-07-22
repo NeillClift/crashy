@@ -9,5 +9,5 @@ typedef boost::multiprecision::number<boost::multiprecision::cpp_int_backend<256
 int main()
 {
 	NTYPE sv = 267386880;
-	sv >>= 1;
+	sv >>= 1; // Step into this. Then step into the range check. Then display assembly
 }
